@@ -1,6 +1,6 @@
 {
   "name": "@lemos/prettier",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "The prettier preset package to format beatifully any TypeScript coding.\"",
   "main": ".prettierrc.json",
   "author": "Leonardo Lemos <leo.lemos.ds@gmail.com>",
