@@ -1,6 +1,25 @@
 {
-  "packages": [
-    "packages/*"
+  "command": {
+    "create": {
+      "homepage": "https://github.com/leo-lemos-sb/monorepo-lerna",
+      "license": "MIT"
+    },
+    "publish": {
+      "tempTag": true
+    },
+    "version": {
+      "allowBranch": "main",
+      "conventionalCommits": true,
+      "createRelease": "github",
+      "exact": true,
+      "message": "chore(release): %s"
+    }
+  },
+  "ignoreChanges": [
+    "**/__fixtures__/**",
+    "**/__tests__/**",
+    "**/*.md"
   ],
-  "version": "0.0.0"
+  "useWorkspaces": true,
+  "version": "independent"
 }
