@@ -1,0 +1,10 @@
+{
+    "name": "@lemos/eslint",
+    "version": "1.0.0",
+    "description": "The eslint preset package to format error syntax management in any TypeScript coding.\"",
+    "main": ".eslintrc.yaml",
+    "author": "Leonardo Lemos <leo.lemos.ds@gmail.com>",
+    "license": "MIT",
+    "private": true
+  }
+  
