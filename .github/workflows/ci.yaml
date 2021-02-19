@@ -19,4 +19,3 @@ jobs:
         with:
           # only lint on latest node
           node-version: 12
-      - uses: actions/cache@v2
