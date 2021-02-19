@@ -1,0 +1,14 @@
+{
+  "name": "@lemos/workspace",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Leonardo Lemos <leo.lemos.ds@gmail.com>",
+  "license": "PROPERTY",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "dependencies": {
+    "lerna": "^3.22.1"
+  }
+}
