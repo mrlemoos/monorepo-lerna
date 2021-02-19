@@ -4,6 +4,6 @@
   "description": "The prettier preset package to format beatifully any TypeScript coding.\"",
   "main": ".prettierrc.json",
   "author": "Leonardo Lemos <leo.lemos.ds@gmail.com>",
-  "license": "PROPERTY",
+  "license": "MIT",
   "private": true
 }
