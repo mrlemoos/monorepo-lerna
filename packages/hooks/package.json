@@ -1,0 +1,14 @@
+{
+  "name": "@lemos/hooks",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "author": "Leonardo Lemos <leo.lemos.ds@gmail.com>",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "scripts": {
+    "build": "tsc -p ./tsconfig.json"
+  }
+}
