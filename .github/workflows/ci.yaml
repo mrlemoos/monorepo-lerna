@@ -1,0 +1,22 @@
+on:
+  push:
+    branches:
+      - main
+      - next
+      - stable
+
+  pull_request:
+    types: [assigned, opened, synchronize, reopened, labeled]
+
+name: ci
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: qactions/setup-node@v1
+        with:
+          # only lint on latest node
+          node-version: 12
+      - uses: actions/cache@v2
