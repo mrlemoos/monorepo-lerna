@@ -26,5 +26,5 @@ jobs:
       - run: npm -g i yarn
       - run: yarn
       - run: yarn lerna run build
-      - run: yarn lerna version --yes --git-remote pub --allow-branch main
+      - run: yarn lerna version --yes
       - run: yarn lerna publish from-git --yes
